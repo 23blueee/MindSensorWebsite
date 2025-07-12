@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>桐元科技 · 数字心理健康</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <style>
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 100%;
+  }
+}
+.gradient-animate-text {
+  background: linear-gradient(120deg, #40ffa9d1, #4079ff, #40ffa9d1);
+  background-size: 200% 100%; 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-x 4s linear infinite; /* 播放速度加快 */
+}
+</style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html> 

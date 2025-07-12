@@ -1,0 +1,38 @@
+export const testimonials = [
+  {
+    name: 'Annette Black',
+    title: 'Chief Chairman',
+    company: 'Netflix',
+    companyLogo: '/assets/images/logo.png',
+    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+    content: 'Golio is one of the BEST web designers I\'ve ever worked with professionally. I am a repeat customer who continues to work with Zakir because of his talent/skills, great customer service, work ethic, and attention to detail.',
+    companyColor: 'text-orange-500',
+  },
+  {
+    name: '吴国涛',
+    title: '西南大学产研院止动研究中心负责人',
+    company: '止动计划',
+    companyLogo: '/assets/images/logo.png',
+    avatar: 'https://randomuser.me/api/portraits/men/33.jpg',
+    content: '我们的服务是成年ADHD群体，干预往往缺乏客观反馈。引入桐元的脑电系统后，用户能清晰看到专注力的实时变化，提升了他们的自我认知与坚持训练的动力，也增强了我们服务的专业性。',
+    companyColor: 'text-red-500',
+  },
+  {
+    name: 'Annette Black',
+    title: 'CEO',
+    company: 'Youtube',
+    companyLogo: '/assets/images/logo.png',
+    avatar: 'https://randomuser.me/api/portraits/men/34.jpg',
+    content: 'Working with Golio was a great experience, understanding person, fast response time dose his work with honestly, experienced, a problem solver. Gives it\'s all. I highly recommend him for providing beyond of high quality service.',
+    companyColor: 'text-red-600',
+  },
+  {
+    name: 'Annette Black',
+    title: 'CEO',
+    company: 'Amazon',
+    companyLogo: '/assets/images/logo.png',
+    avatar: 'https://randomuser.me/api/portraits/men/35.jpg',
+    content: 'Less than 24h turn around. Easy communication. Did exactly as offered, all around a perfect experience.',
+    companyColor: 'text-purple-500',
+  },
+]; 

@@ -5,7 +5,11 @@ import { motion } from 'framer-motion';
 
 const cases = [
   {
-    img: '',
+    // imgList: 两张图片路径，示例可替换为实际图片
+    imgList: [
+      '/assets/images/report-1.png',
+      '/assets/images/report-2.png',
+    ],
     title: '西南大学ADHD训练系统',
     descList: [
       '西南大学心理学部（2025年ABC中国大学心理学学科排名第四）基于随机对照实验，验证了Mindsensor 意念精灵结合CBT在提升ADHD人群注意力与执行功能方面的有效性。该项目融合脑神经反馈与可视化训练体系，实时监测脑电活动，引导前额叶调节，改善专注力与情绪控制。',
@@ -14,7 +18,10 @@ const cases = [
     ],
   },
   {
-    img: '',
+    imgList: [
+      '/assets/images/product.png',
+      '/assets/images/hero-star.png',
+    ],
     title: '心灵花园心理中心',
     descList: [
       '引入脑电+AI测评，提升心理服务数字化水平，助力个性化干预。',
@@ -53,6 +60,7 @@ export default function ClientCasesSection() {
         客户案例
       </motion.h2>
       <motion.div className="w-full flex justify-center" variants={itemVariants}>
+        {/* 传递 imgList 属性，支持两张图片 */}
         <ClientCaseCard {...cases[idx]} />
       </motion.div>
       <motion.div className="flex gap-8 mt-2" variants={itemVariants}>

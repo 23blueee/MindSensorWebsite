@@ -143,11 +143,12 @@ export default function App() {
         animate="show"
         className="relative w-full px-6 lg:px-0 pt-24 pb-56 lg:py-40 flex flex-col items-center text-center overflow-x-hidden bg-gradient-to-b from-white via-[#F5F7F9] to-gray-50 text-gray-900 "
       >
+        {/* 恢复为无边框的原始样式 */}
         <motion.span
           className="inline-flex items-center px-4 py-3 rounded-full bg-blue-100"
           variants={{
             hidden: { opacity: 0, y: -30 },
-            show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+            show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
           }}
         >
           <span className="text-base font-semibold text-blue-500 leading-none">科技点亮心灵</span>
